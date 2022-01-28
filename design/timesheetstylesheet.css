@@ -1,0 +1,94 @@
+body {
+  background-color: rgba(255, 255, 255, 0.993);
+  font-family: "https://fonts.google.com/specimen/Libre+Baskerville";
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 5vh;
+  margin-top: 5%;
+  padding-top: 5%;
+}
+
+h2 {
+}
+
+h3 {
+}
+
+.maindiv {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+}
+
+.afterdiv {
+  background-color: rgb(252, 252, 252);
+  margin: 2%;
+}
+
+.div1 {
+  width: 100%;
+  height: 5%;
+  background-color: rgb(255, 255, 255);
+  margin: 2% 0;
+}
+
+.div2 {
+  padding-left: 2%;
+  padding-right: 2%;
+  scroll-padding-top: 2.5%;
+  background-color: rgb(255, 255, 255);
+}
+
+.div3 {
+}
+
+table {
+  width: 90%;
+  height: 70%;
+  margin: 5% 5% 5% 5%;
+  padding: 2%;
+  min-height: 55vh;
+}
+
+table tr {
+  margin-bottom: 1%;
+  border: 1px solid black;
+}
+
+table td {
+  padding: 0%;
+  height: 5%;
+  width: 10%;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 125%;
+
+  border: 1px solid black;
+}
+
+table th {
+  height: 5%;
+  border: 1px solid black;
+  font-weight: bolder;
+  font-size: 125%;
+}
+
+.addActivity {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  font-size: 100%;
+}
+
+.addActivity:hover {
+  font-size: 150%;
+  font-weight: bolder;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
