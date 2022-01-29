@@ -38,10 +38,10 @@ h3 {
 }
 
 .div1:hover {
-  transform: rotate(10deg);
+  transform: rotate(182deg) 2s;
   background-image: url(/images/_24_screen-crack-png_crack-08dc9-png-e4118-images-92aeb-screen-31dbe-texture-23385-glass-578b0-cracks-79fae-transparent-6fc41-free---transparent---png---logos.png);
   font-weight: bolder;
-  font-size: 10vh;
+  font-size: 1%;
 }
 
 .div2 {

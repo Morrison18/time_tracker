@@ -30,13 +30,33 @@
           </tr>
           <tr class="times">
             <td>09:00</td>
-            <td><input class="addActivity" type="button" value="Add" /></td>
-            <td><input class="addActivity" type="button" value="Add" /></td>
-            <td><input class="addActivity" type="button" value="Add" /></td>
-            <td><input class="addActivity" type="button" value="Add" /></td>
-            <td><input class="addActivity" type="button" value="Add" /></td>
-            <td><input class="addActivity" type="button" value="Add" /></td>
-            <td><input class="addActivity" type="button" value="Add" /></td>
+            <td>
+              <input
+                class="addActivity"
+                onclick="addHours(this.id)"
+                id="mon9"
+                type="button"
+                value="Add"
+              />
+            </td>
+            <td>
+              <input class="addActivity" id="tue9" type="button" value="Add" />
+            </td>
+            <td>
+              <input class="addActivity" id="wed9" type="button" value="Add" />
+            </td>
+            <td>
+              <input class="addActivity" id="thur9" type="button" value="Add" />
+            </td>
+            <td>
+              <input class="addActivity" id="fri9" type="button" value="Add" />
+            </td>
+            <td>
+              <input class="addActivity" id="sat9" type="button" value="Add" />
+            </td>
+            <td>
+              <input class="addActivity" id="sun9" type="button" value="Add" />
+            </td>
           </tr>
           <tr class="times">
             <td>10:00</td>
@@ -118,6 +138,16 @@
             <td><input class="addActivity" type="button" value="Add" /></td>
             <td><input class="addActivity" type="button" value="Add" /></td>
           </tr>
+          <tr class="totals">
+            <td>Total</td>
+            <td id="TotalMonday"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
         </table>
       </div>
       <div class="div3"></div>
@@ -129,5 +159,6 @@
         <br />
       </div>
     </div>
+    <script src="/script/script.js"></script>
   </body>
 </html>
