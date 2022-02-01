@@ -1,15 +1,17 @@
 let totalHours = 0;
 let mon = 0;
 
-function addHours(clicked_id) {
-  alert("Button Works ");
-  prompt("what did you do ?");
-  theID = clicked_id;
+function AddHours(day, hour) {
+  this.day = document.getElementById(day).innerHTML;
+  this.hour = hour;
+  newli = document.createElement("li");
+  let activity = prompt("what did you do ?");
 
-  if (theID == "mon9") {
-    this.mon = mon;
-    mon++;
+  if (day == "mon") {
+    mon = +hour;
     document.getElementById("TotalMonday").innerHTML = mon;
+    newli.innerHTML = activity;
   }
   alert(mon);
+  alert(activity);
 }
